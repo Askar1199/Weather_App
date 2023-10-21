@@ -176,7 +176,14 @@
   width: 100%;
   mix-blend-mode: plus-lighter;
 }
-.initialPara {
+.initialPara,
+.errorCont p {
   text-align: center;
   color: #e6e6a4;
+}
+.errorCont {
+  max-width: 340px;
+}
+.errorCont img {
+  max-width: 100%;
 }
