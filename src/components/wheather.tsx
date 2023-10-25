@@ -62,7 +62,7 @@ const wheather = () => {
         // console.log(error);
         // alert("Please Enter Valid Location Name" + error);
         setError(false);
-        console.log("Error fetching data ");
+        // console.log("Error fetching data ");
       })
       .finally(function () {
         // always executed
