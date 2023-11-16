@@ -70,7 +70,7 @@ const wheather = () => {
       });
   };
 
-  let map2: string = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=057c0ccc5b061da3aaa748fdb6c23de1&units=metric`;
+  let map2: string = `https://api.openweathermap.org/data/2.5/weather?q=${city.trim()}&appid=057c0ccc5b061da3aaa748fdb6c23de1&units=metric`;
 
   const weatherChanger = (wheather: string) => {
     let iconElement: React.ReactNode;
